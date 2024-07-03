@@ -1,0 +1,83 @@
+Using device:  cuda
+Max length of source sentence:  309
+Max length of target sentence:  274
+--------------------------------------------------------------------------------
+SOURCE: But he was not fated to go yet.
+TARGET: Ma non era destino che dovesse andar via.
+PREDICTED: Ma non si era fatto .
+--------------------------------------------------------------------------------
+SOURCE: Or was the vault under the chancel of Gateshead Church an inviting bourne?
+TARGET: Oppure la volta sotto la cappella di Gateshead era un soggiorno attraente?
+PREDICTED: Il giorno era un ' altra volta , e la mia vita ?
+--------------------------------------------------------------------------------
+SOURCE: 'Is it possible that he still sees her?
+TARGET: Possibile che la veda ancora?
+PREDICTED: — E che cosa si ?
+--------------------------------------------------------------------------------
+SOURCE: 'It turns out...'
+TARGET: Risulta...
+PREDICTED: — È un ’ altra cosa !
+--------------------------------------------------------------------------------
+SOURCE: He was on familiar terms with everybody he drank champagne with, and he drank champagne with everybody. But when in the presence of his subordinates he happened to meet any of his 'disreputable pals,' as he jocularly called them, he was able, with his innate tact, to minimize the impression such a meeting might leave on their minds.
+TARGET: Egli dava del «tu» a tutti quelli con i quali beveva lo champagne, e di champagne ne beveva con tutti; perciò, incontrandosi in presenza dei suoi dipendenti con i suoi «tu» vergognosi, come chiamava scherzando molti amici, sapeva diminuire, con quel tatto che gli era proprio, la spiacevolezza dell’impressione che potevano riportarne i dipendenti.
+PREDICTED: Si sentiva che , quando si fosse stato stato un vecchio e , e , quando , quando , quando , come in modo di , si era stato stato stato stato , e , come se non si fosse stato , e che , come se ne era stato stato , e , come si fosse stato stato .
+--------------------------------------------------------------------------------
+SOURCE: Karenin smiled sadly, looked at his brother-in-law, and without replying went to the table and took from it an unfinished letter which he handed to him.
+TARGET: Aleksej Aleksandrovic sorrise triste, guardò il cognato e, senza rispondere, si accostò al tavolo, ne trasse fuori una lettera cominciata e la dette al cognato.
+PREDICTED: Aleksej Aleksandrovic si alzò , si mise a guardare la lettera e non si mise a guardare il tè , e , dopo aver sentito che si fermò .
+--------------------------------------------------------------------------------
+SOURCE: Let him feel weary, but let him be here with her so that she might see him and know his every movement.
+TARGET: Che ne sentisse pure il peso, ma fosse là con lei. In ogni modo ch’ella lo vedesse, sapesse ogni suo movimento.
+PREDICTED: Andiamo , ma lui , lui , per lui , come si sarebbe stato fatto che si sarebbe stato messo a lei e si sarebbe stato messo a lei .
+--------------------------------------------------------------------------------
+SOURCE: He knows everything, sees everything – what then does he feel, if he can talk so calmly?
+TARGET: Egli sa tutto, vede tutto; che cosa mai c’è in lui, dunque, se può così tranquillamente parlare?
+PREDICTED: Egli ha fatto bene , perché , se non si può essere sposata , se ne ha detto ?
+--------------------------------------------------------------------------------
+SOURCE: “Why,” said I, “it is, that as you say there are three or four honest fellows among them which should be spared, had they been all of the wicked part of the crew I should have thought God’s providence had singled them out to deliver them into your hands; for depend upon it, every man that comes ashore is our own, and shall die or live as they behave to us.”
+TARGET: Guardate! in tutto questo apparato di cose io ne vedo una soltanto che mi dà dispiacere. — Ed è? — Che in tutta quella ciurma vi sieno tre o quattro buoni diavolacci, come avete detto voi, che sarebbero da salvare. Io vorrei in vece che sol tutta la schiuma di canaglia del vostro vascello fosse là in quella scialuppa, e direi che la Providenza divina gli ha cerniti dal restante per darceli tutti nelle mani.
+PREDICTED: « Perché io mi ha detto che io sia detto , come vi siete , come se ne sono stati due o tre o tre anni , che vi , e che di essi , come se ne , , , e che , come se ne , , e che , come , come , e , come , come , e , come , e , come , come , come , , e , come , come , , come , come , , , .»
+--------------------------------------------------------------------------------
+SOURCE: "And since I cannot do it, Jane, it must have been unreal."
+TARGET: — Non posso, perché la visione non era reale.
+PREDICTED: — E allora , Jane , non posso , non è vero .
+--------------------------------------------------------------------------------
+SOURCE: I'll give you a hundred or a thousand guesses – and you won't find out!
+TARGET: Ve lo do a indovinare su cento... su mille. Non l’indovinerete mai.
+PREDICTED: Io voglio un po ’ di o , e non ti .
+--------------------------------------------------------------------------------
+SOURCE: This man, the son of a potter, through all the changes in his fortunes always led an infamous life. Nevertheless, he accompanied his infamies with so much ability of mind and body that, having devoted himself to the military profession, he rose through its ranks to be Praetor of Syracuse.
+TARGET: Costui, nato d’uno figulo, tenne sempre, per li gradi della sua età, vita scellerata; non di manco accompagnò le sua scelleratezze con tanta virtù di animo e di corpo, che, voltosi alla milizia, per li gradi di quella pervenne ad essere pretore di Siracusa.
+PREDICTED: Costui , che il figlio , in quel momento , tutto il partito nuovo in tutte le cose che si può essere , non si può , acciò che , sendo sempre più grande e che si con le imprese , si nelle opere .
+--------------------------------------------------------------------------------
+SOURCE: His eyes were large and blue, with brown lashes; his high forehead, colourless as ivory, was partially streaked over by careless locks of fair hair.
+TARGET: I grandi occhi turchini erano velati da scure ciglia, la sua fronte, alta e pallida come avorio, era in parte celata da ricci biondi.
+PREDICTED: Le sue mani erano , con le sopracciglia nere e le sue labbra erano , come era , , , dal viso di una fronte .
+--------------------------------------------------------------------------------
+SOURCE: 'And am I worse than she?' asked Serezha.
+TARGET: — Ma forse io sono meno bravo di lei? — chiese Serëza.
+PREDICTED: — E io sono forse più felice ? — disse Serëza .
+--------------------------------------------------------------------------------
+SOURCE: At first Levin thought of letting the whole of his farm as it stood to the peasants, to the labourers, and to his steward, on the new co-partnership lines, but he very soon saw that this was impossible and decided to divide up the different parts.
+TARGET: Dapprima Levin pensò di dare tutta l’azienda, nello stato in cui era, in affitto ai contadini, ai lavoratori e all’amministratore, a nuove condizioni di compartecipazione; ma ben presto si convinse che ciò non era possibile, e si decise a suddividere l’azienda.
+PREDICTED: In principio , Levin pensava che l ’ azienda era la sua azienda , come era andato a falciare i contadini , e a un tratto , a Levin , e aveva fatto il livello dei contadini , e che non aveva nulla , era andato a questo , e che questo era andato in modo di andare a falciare .
+--------------------------------------------------------------------------------
+SOURCE: The moisture of the rain, shattered into minute drops, filled the air.
+TARGET: L’umidità della pioggia, frantumata in gocce minute, si sentiva nell’aria.
+PREDICTED: Il terrore della pioggia , che si dietro a un istante , si in aria fresca .
+--------------------------------------------------------------------------------
+SOURCE: And I told him how I came to discover it all.
+TARGET: E gli narrai come avessi fatto la scoperta.
+PREDICTED: E io gli dissi che avrei dato tutto ciò .
+--------------------------------------------------------------------------------
+SOURCE: "And won't you be sorry to leave poor Bessie?"
+TARGET: — E non vi dispiace di lasciare la povera Bessie?
+PREDICTED: — E non vi piace di esser così bene ?
+--------------------------------------------------------------------------------
+SOURCE: 'Oh, please don't let us talk about Nilsson!
+TARGET: — Ah, vi prego, non parliamo più della Nilsson!
+PREDICTED: — Ah , non parliamo di questo !
+--------------------------------------------------------------------------------
+SOURCE: I had the presence of mind at that minute to think, that though I could not help them, it might be that they might help me; so I brought together all the dry wood I could get at hand, and making a good handsome pile, I set it on fire upon the hill.
+TARGET: La mia mente fu pronta abbastanza a pensare allora che, se bene io non fossi in istato di portare aiuto a que’ naviganti, poteva riceverne da essi. Raccolte quindi quante legna aveva a tiro, e fattone una grande catasta, piantai un bel fuoco su la montagna.
+PREDICTED: La presenza del mio spirito era sì tormentosa , che non mi , benchè io non fosse possibile , mi fosse possibile , e che tutti gli altri selvaggi , e i boschi li con una buona mano , mi nel terreno , e la terra .
