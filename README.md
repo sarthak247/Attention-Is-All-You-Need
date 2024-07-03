@@ -43,7 +43,7 @@ To resume training from a checkpoint:
 ```bash
 mkdir weights
 ```
-- Download the model weights from this [link](https://universityofadelaide.box.com/s/sf952gnruu8c752norn03st3t1ax3mq4) and place them in the `weights` directory.
+- Download the model weights from this [link](https://universityofadelaide.box.com/s/jjmlphigf0lyb2icjmo5gsti4dlcm2qw) and place them in the `weights` directory.
 - The directory structure should resemble:
 ```bash
 tree weights/
