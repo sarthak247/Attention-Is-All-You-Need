@@ -2,6 +2,8 @@
 
 [Attention is All You Need](https://arxiv.org/abs/1706.03762) PyTorch implementation based on [Umar Jamil's Coding a Transformer from Scratch video](https://www.youtube.com/watch?v=ISNdQcPhsts&t=101s&ab_channel=UmarJamil).
 
+![Attention Is All You Need Transformer Architecture](attention.png)
+
 ## Getting Started
 
 To set up and run this project:
@@ -27,7 +29,7 @@ python train.py > log.txt
 ```
 - The default hyperparameters are defined in `config.py` and can be modified as needed.
 
-## Model card
+## Model card (for English-Italian)
 - Vanilla Transformer Model
 - Batch size: 8
 - d_model: 512
@@ -35,7 +37,16 @@ python train.py > log.txt
 - lr = 10e-4
 - Optimizer: Adam
 
-The model was initially trained for English-to-Italian and English-to-French translations but with limited resources. The author trained these models for 20 epochs each; you can continue training from the provided checkpoints if needed.
+
+## Model card (for English-Russian)
+- Vanilla Transformer Model
+- Batch size: 16
+- d_model: 512
+- seq_len: 250
+- lr = 10e-4
+- Optimizer: Adam
+
+The model was initially trained for English-to-Italian and English-to-Russian translations but with limited resources. The author trained these models for 20 epochs each; you can continue training from the provided checkpoints if needed. The logs for the training can be found [here](https://wandb.ai/sarthak-thakur/Transformers)
 
 ## Resume Training
 To resume training from a checkpoint:
@@ -60,4 +71,10 @@ weights/
 - Continue training as usual.
 ```bash
 python train.py
+```
+
+## Demo App
+This implementation features a demo app built on Streamlit for model inference. Please ensure that you have correctly placed the appropriate model weights in the `weights` folder. For instance, if you intend to utilize the English-to-Russian model, download the corresponding weights and place them in the weights folder. Once the weights are correctly situated, you can initiate model inference by executing:
+```bash
+streamlit run app.py
 ```
