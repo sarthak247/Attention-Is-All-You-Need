@@ -326,5 +326,3 @@ def build_transforer(src_vocab_size: int, tgt_vocab_size: int, src_seq_len: int,
             nn.init.xavier_uniform_(p)
         
     return transformer
-
-    
