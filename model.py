@@ -271,3 +271,60 @@ class Transformer(nn.Module):
     def project(self, x):
         return self.projection_layer(x)
     
+# Step 13. Now that we have everything in place, we need a method which we can call to build our transformer model for us
+"""
+Input: src_vocab_size: Size of the source vocabulary (will be needed when building the embeddings)
+    tgt_vocab_size: Similar as above
+    src_seq_len: The maximum source sentence length
+    tgt_seq_len: Same as above
+    d_model: Model dimensions
+    N: Number of times to repeat the blocks
+    h: number of heads
+    dropout: Dropout to apply
+    d_ff: Hidden layer dimension (while using in feed forward block)
+Output: Transformer model
+"""
+def build_transforer(src_vocab_size: int, tgt_vocab_size: int, src_seq_len: int, tgt_seq_len: int, d_model: int = 512, N: int = 6, h: int = 8, dropout: float = 0.1, d_ff: int = 2048) -> Transformer:
+    # Create the embedding layers
+    src_embed = InputEmbeddings(d_model, src_vocab_size)
+    tgt_embed = InputEmbeddings(d_model, tgt_seq_len)
+
+    # Create the positional encoding layers
+    src_pos = PositionalEnconding(d_model, src_seq_len, dropout)
+    tgt_pos = PositionalEnconding(d_model, tgt_seq_len, dropout)
+
+    # Create the encoder blocks
+    encoder_blocks = []
+    for _ in range(N):
+        encoder_self_attention_block = MultiHeadAttention(d_model, h, dropout)
+        feed_forward_block = FeedForwardBlock(d_model, d_ff, dropout)
+        encoder_block = EncoderBlock(encoder_self_attention_block, feed_forward_block, dropout)
+        encoder_blocks.append(encoder_block)
+
+    # Create the decoder blocks
+    decoder_blocks = []
+    for _ in range(N):
+        decoder_self_attention_block = MultiHeadAttention(d_model, h, dropout)
+        decoder_cross_attention_block = MultiHeadAttention(d_model, h, dropout)
+        feed_forward_block = FeedForwardBlock(d_model, d_ff, dropout)
+        decoder_block = DecoderBlock(decoder_self_attention_block, decoder_cross_attention_block, feed_forward_block, dropout)
+        decoder_blocks.append(decoder_block)
+
+    # Create the encoder and the decoder
+    encoder = Encoder(nn.ModuleList(encoder_blocks))
+    decoder = Decoder(nn.ModuleList(decoder_blocks))
+
+    # Create the projection layer
+    projection_layer = ProjectionLayer(d_model, tgt_vocab_size) # since we are projecting from the source language to the target language
+
+    # Build the transformer
+    transformer = Transformer(encoder, decoder, src_embed, tgt_embed, src_pos, tgt_pos, projection_layer)
+
+    # Initialize the weights (for smoother training instead of random weights)
+    for p in transformer.parameters():
+        if p.dim() > 1:
+            nn.init.xavier_uniform_(p)
+        
+    return transformer
+
+    
